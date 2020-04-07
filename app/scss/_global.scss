@@ -27,6 +27,7 @@ body {
     font-size: 16px;
     line-height: 19px;
     font-weight: 400;
+    color: #4E4E4E;
 }
 html,
 body {
@@ -43,13 +44,33 @@ body {
 .footer {
 	flex: 0 0 auto;
 }
-.container {
-    max-width: 1200px;
+.section-wrapper {
+    max-width: 1500px;
     padding: 0 15px;
     margin: 0 auto;
+    position: relative;
+    // left: 25%;
+    // transform:translateX(-25%);
 }
-.container_fluid {
-    width: 100%;
-    margin: 0 auto;
-    // padding: 0 15px;
+.default-btn a {
+    font-size: 25px;
+    line-height: 29px;
+    color: #98B8F6;
+    margin-right: 5px;
+    transition: all .5s;
+    padding-right: 40px;
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        background-image: url(../images/icons/ic_arrow.png);
+        width: 28px;
+        height: 21px;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &:hover {
+        color: rgb(92, 94, 212);
+    }
 }
