@@ -1,8 +1,196 @@
 @import "global";
 @import "vars";
-@import "fonts";
 
 //start header
+.header {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1175px;
+    margin-bottom: 200px;
+    position: relative;
+    &__menu {
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff;
+        max-width: 1500px;
+        width: 100%;
+        padding: 34px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-content {
+            margin-right: 80px;
+            margin-left: auto;
+        }
+        &-content li {
+            display: inline-block;
+            & + li {
+                margin-left: 62px;
+            }
+        }
+        &-content a {
+            text-transform: uppercase;
+            color: #C1B2B1;
+            transition: all .5s;
+            &:hover {
+                color: rgb(92, 94, 212);
+            }
+        }
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+    &__info {
+        max-width: 688px;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        top: 300px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__subtitle {
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 40px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+    }
+    &__title {
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 117px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    &__btn {
+        font-size: 25px;
+        line-height: 29px;
+        font-weight: 400;
+        & a {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 19px 53px 22px 58px;
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            border-radius: 100px;
+            transition: all .5s;
+            &:hover {
+                background-color: lightgrey;
+            }
+        }
+    }
+    &__inner {
+        position: absolute;
+        top: 800px;
+        left: 25%;
+        transform: translateX(-25%);
+        max-width: 1180px;
+        width: 100%;
+        &-box {
+            position: absolute;
+            z-index: 2;
+            left: 0;
+            top: 115px;
+            max-width: 400px;
+            width: 100%;
+        }
+        &-title {
+            font-weight: 900;
+            font-size: 100px;
+            line-height: 85px;
+            text-transform: uppercase;
+            padding-top: 50px;
+            position: relative;
+            margin-bottom: 30px;
+            color: #4E4E4E;
+            &:before {
+                content:"";
+                position: absolute;
+                background-image: url(../images/header/img_divider.png);
+                width: 99px;
+                height: 18px;
+                top: 0;
+                left: 0;
+            }
+        }
+        &-subtitle {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35px;
+            color: #4E4E4E;
+            margin-bottom: 18px;
+        }
+        &-author {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 23px;
+            color: #9C9C9C;
+            padding-left: 70px;
+            position: relative;
+            &:before {
+                content:"";
+                position: absolute;
+                background-image: url(../images/icons/avatar_4.jpg);
+                border-radius: 50%;
+                width: 51px;
+                height: 50px;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        &-picture {
+            position: absolute;
+            left: 345px;
+            top: 0;
+            z-index: 1;
+            box-shadow: 0px 30px 30px rgba(140, 153, 191, 0.2);
+        }
+        &-photo {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        &-gallery {
+            max-width: 420px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: -5px;
+            margin-bottom: 40px;
+            & img {
+                margin: 5px;
+                box-shadow: 0px 30px 30px rgba(140, 153, 191, 0.2);
+            }
+        }
+        &-btn {
+            position: absolute;
+            right: 0;
+            & a {
+                font-size: 25px;
+                line-height: 29px;
+                color: #98B8F6;
+                margin-right: 5px;
+                transition: all .5s;
+                &:hover {
+                    color: rgb(92, 94, 212);
+                }
+            }
+        }
+    }
+    &__circle {
+        position: absolute;
+        right: 8%;
+        bottom: -120px;
+    }
+}
+//end header
+
 
 
 // .parallax-window {
