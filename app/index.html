@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Photo adventure</title>
+    <title>Photo community</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Raleway:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
             <header class="header" style="background-image: url(images/header/image_bgd.jpg);">
                 <div class="header__menu">
                     <div class="header__logo">
-                        <img src="images/header/logo.png" alt="logo">
+                       <a href="#"> <img src="images/header/logo.png" alt="logo"></a>
                     </div>
                     <div class="header__nav">
                         <nav class="header__menu-list">
@@ -28,7 +28,7 @@
                             </ul>
                         </nav>
                         <div class="header__search">
-                            <img src="images/icons/ic_magnifying-glass.png" alt="icon">
+                           <a href="#"> <img src="images/icons/ic_magnifying-glass.png" alt="icon"></a>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     <div class="header__inner">
                         <div class="header__inner-info">
                             <div class="header__inner-box">
-                                <div class="header__inner-title">impres-sive</div>
+                                <div class="header__inner-title title">impres-sive</div>
                                 <div class="header__inner-subtitle">Shots of your week</div>
                                 <div class="header__inner-author">
                                     by Jonathan Bean
@@ -65,7 +65,20 @@
                                 <img src="images/header/photo4.jpg" alt="photo">
                             </div>
                             <div class="header__inner-btn default-btn">
-                                <a href="#">See all</a>
+                                <a href="#">See all
+                                    <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0)">
+                                        <path d="M27.5 9.50009L16.8934 20.1067" stroke="#98B8F6" stroke-width="3"/>
+                                        <path d="M25.5 10.5L0.5 10.5" stroke="#98B8F6" stroke-width="3"/>
+                                        <path d="M27 11L16.3934 0.393398" stroke="#98B8F6" stroke-width="3"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0">
+                                        <rect x="28" y="21" width="28" height="21" transform="rotate(-180 28 21)" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                         <div class="header__circle">
@@ -78,7 +91,7 @@
             <section class="about">
                 <div class="section-wrapper">
                     <div class="about__box">
-                        <div class="about__title">about</div>
+                        <div class="about__title title">about</div>
                         <div class="about__subtitle">
                             Home to everyone's best photos
                         </div>
@@ -97,7 +110,20 @@
                             </p>
                         </div>
                         <div class="about__btn default-btn">
-                            <a href="#">Learn more</a>
+                            <a href="#">Learn more
+                                <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                    <path d="M27.5 9.50009L16.8934 20.1067" stroke="#98B8F6" stroke-width="3"/>
+                                    <path d="M25.5 10.5L0.5 10.5" stroke="#98B8F6" stroke-width="3"/>
+                                    <path d="M27 11L16.3934 0.393398" stroke="#98B8F6" stroke-width="3"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0">
+                                    <rect x="28" y="21" width="28" height="21" transform="rotate(-180 28 21)" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
                         </div>
                     </div>
                     <div class="about__square--small">
@@ -105,6 +131,126 @@
                     </div>
                     <div class="about__square--big">
                         <img src="images/content/floating_square.png" alt="image">
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <div class="section-wrapper">
+                    <div class="gallery__title title">Gallery</div>
+                    <div class="gallery__items">
+                        <div class="gallery__item" >
+                            <div class="gallery__item-images">
+                                <a href="images/content/gallery_image_1.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_1.jpg" width="300px" height="280px" alt="photo"/></a>  
+                            </div>
+                            <div class="gallery__item-content">
+                                <div class="gallery__item-name">Foam</div>
+                                <div class="gallery__item-date">Nov 9, 2018</div>
+                            </div>
+                            <div class="gallery__item-zoom">
+                                <a href="#"><img src="images/icons/ui.png" alt="icon"></a>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__item-images">
+                                <a href="images/content/gallery_image_2.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_2.jpg" width="300px" height="280px" alt="photo"/></a>  
+                            </div>
+                            <div class="gallery__item-content">
+                                <div class="gallery__item-name">Freshwater West </div>
+                                <div class="gallery__item-date">Dec 21, 2018</div>
+                            </div>
+                            <div class="gallery__item-zoom">
+                                <a href="#"><img src="images/icons/ui.png" alt="icon"></a>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__item-images">
+                                <a href="images/content/gallery_image_3.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_3.jpg" width="300px" height="280px" alt="photo"/></a>  
+                            </div>
+                            <div class="gallery__item-content">
+                                <div class="gallery__item-name">Niagara Waterfalls</div>
+                                <div class="gallery__item-date">Dec 10, 2018</div>
+                            </div>
+                            <div class="gallery__item-zoom">
+                                <a href="#"><img src="images/icons/ui.png" alt="icon"></a>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__item-images">
+                                <a href="images/content/gallery_image_4.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_4.jpg" width="300px" height="280px" alt="photo"/></a>  
+                            </div>
+                            <div class="gallery__item-content">
+                                <div class="gallery__item-name">Mocean</div>
+                                <div class="gallery__item-date">Dec 1, 2018</div>
+                            </div>
+                            <div class="gallery__item-zoom">
+                                <a href="#"><img src="images/icons/ui.png" alt="icon"></a>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__item-images">
+                                <a href="images/content/gallery_image_5.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_5.jpg" width="300px" height="280px" alt="photo"/></a>  
+                            </div>
+                            <div class="gallery__item-content">
+                                <div class="gallery__item-name">Clear Lake</div>
+                                <div class="gallery__item-date">Nov 26, 2018</div>
+                            </div>
+                            <div class="gallery__item-zoom">
+                                <a href="#"><img src="images/icons/ui.png" alt="icon"></a>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__item-images">
+                                <a href="images/content/gallery_image_6.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_6.jpg" width="300px" height="280px" alt="photo"/></a>  
+                            </div>
+                            <div class="gallery__item-content">
+                                <div class="gallery__item-name">Cristal WaterFalls</div>
+                                <div class="gallery__item-date">Nov 13, 2018</div>
+                            </div>
+                            <div class="gallery__item-zoom">
+                                <a href="#"><img src="images/icons/ui.png" alt="icon"></a>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__item-images">
+                                <a href="images/content/gallery_image_7.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_7.jpg" width="300px" height="280px" alt="photo"/></a>  
+                            </div>
+                            <div class="gallery__item-content">
+                                <div class="gallery__item-name">Pathific Ocean</div>
+                                <div class="gallery__item-date">Nov 4, 2018</div>
+                            </div>
+                            <div class="gallery__item-zoom">
+                                <a href="#"><img src="images/icons/ui.png" alt="icon"></a>
+                            </div>
+                        </div>
+                        <div class="gallery__item">
+                            <div class="gallery__item-images">
+                                <a href="images/content/gallery_image_8.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_8.jpg" width="300px" height="280px" alt="photo"/></a>  
+                            </div>
+                            <div class="gallery__item-content">
+                                <div class="gallery__item-name">Dead Sea</div>
+                                <div class="gallery__item-date">Oct 25, 2018</div>
+                            </div>
+                            <div class="gallery__item-zoom">
+                                <a href="#"><img src="images/icons/ui.png" alt="icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__btn default-btn">
+                        <a href="#">Explore gallery
+                            <svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                <path d="M27.5 9.50009L16.8934 20.1067" stroke="#98B8F6" stroke-width="3"/>
+                                <path d="M25.5 10.5L0.5 10.5" stroke="#98B8F6" stroke-width="3"/>
+                                <path d="M27 11L16.3934 0.393398" stroke="#98B8F6" stroke-width="3"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0">
+                                <rect x="28" y="21" width="28" height="21" transform="rotate(-180 28 21)" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </section>

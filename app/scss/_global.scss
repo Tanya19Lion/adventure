@@ -58,19 +58,27 @@ body {
     color: #98B8F6;
     margin-right: 5px;
     transition: all .5s;
-    padding-right: 40px;
-    position: relative;
-    &:after {
-        position: absolute;
-        content: "";
-        background-image: url(../images/icons/ic_arrow.png);
-        width: 28px;
-        height: 21px;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-    }
     &:hover {
-        color: rgb(92, 94, 212);
+        color: #000;
+    }
+    &:hover svg g path {
+        stroke: #000 !important;
+    }
+}
+.title {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 117px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    position: relative;
+    &:before {
+        content:"";
+        position: absolute;
+        background-image: url(../images/header/img_divider.png);
+        width: 99px;
+        height: 18px;
+        top: 0;
+        left: 0;
     }
 }
