@@ -310,8 +310,8 @@
     }
     &__triangle {
         position: absolute;
-        right: 0;
-        top: 100px;
+        right: 10%;
+        top: 0px;
     }
     &__box {
         max-width: 520px;
@@ -474,6 +474,8 @@
     position: absolute;
     right: 150px;
     top: 30%;
+    border: none;
+    outline: none;
 }
 .slick_btn.slick-prev {
     background-image: url(../images/icons/next.png);
@@ -710,6 +712,184 @@
 }
 //end join
 
+// start contacts
+.contacts {
+    &__title {
+        max-width: 446px;
+        margin-bottom: 93px;
+    }
+    &__circle {
+        position: absolute;
+        right: 30%;
+        top: 70px;
+    }
+    &__inner {
+        display: flex;
+    }
+    &__team {
+        display: flex;
+        &-info {
+            padding: 71px 75px;
+            text-align: center;
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 35px;
+            color: #4E4E4E;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+        &-subtitle {
+            font-size: 20px;
+            line-height: 23px;
+            color: #9C9C9C;
+            margin-bottom: 30px;
+        }
+        &-number {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 75px;
+            color: #31373B;
+            border-width: 12px;
+            border-style: solid;
+            border-color: #FFD2C3  #A8C1F3 #A8C1F3  #BFD4E8;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+        }
+        &-details {
+            font-size: 15px;
+            line-height: 28px;
+            & span {
+                font-weight: 700;
+            }
+        }
+        &-images {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    &__form-box {
+        max-width: 600px;
+        margin: 30px 70px;
+    }
+    &__form {
+        width: 600px;
+        input,
+        textarea {
+            padding: 18px 23px 18px 10px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            width: 100%;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 23px;
+            color: #000;
+            outline: none;
+            margin-bottom: 25px;
+            &::placeholder {
+                color: #CCCCCC;
+            }
+        }
+        textarea {
+            resize: none;
+            min-height: 150px;
+        }
+        button {
+            border: none;
+            outline: none;
+            background: #98B8F6;
+            border-radius: 100px;
+            color: #fff;
+            padding-top: 22px;
+            padding-bottom: 22px;
+            width: 100%;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 20px;
+            line-height: 23px;
+            transition: all .5s;
+            cursor: pointer;
+            &:hover {
+                background-color: #BFD4E8;
+            }
+        }
+    }
+}
+.contacts__team-details--video {
+    color: #BFD4E8;
+}
+.contacts__team-details--photo {
+    color: #A8C1F3;
+}
+.contacts__team-details--design {
+    color: #FFD2C3;
+}
+
+//end contacts
+
+//start footer
+.footer__top {
+    display: flex;
+    &-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 750px;
+        width: 100%;
+    }
+    &-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 70px;
+    }
+    &-list {
+        width: 170px;
+        & + .footer__top-list {
+            margin-left: 50px;
+        }
+    }
+    &-list a {
+        font-size: 20px;
+        line-height: 40px;
+        color: #98B8F6;
+        transition: all .5s;
+        &:hover {
+            color: #000;
+        }
+    }
+    &-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        color: #95A9B1;
+    }
+}
+.footer__bottom {
+    background-color:#BFD4E8;
+    padding-top: 23px;
+    padding-bottom: 27px;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-copy {
+        font-size: 20px;
+        line-height: 30px;
+        color: #95A9B1;
+    }
+    &-list li {
+        display: inline-block;
+        & + li {
+            margin-left: 50px;
+        }
+    }
+}
+
+//end footer
 // .parallax-window {
 //     background-image: url(../images/content/course_background.jpg);
 //     min-height: 866px;
