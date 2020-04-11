@@ -1,0 +1,588 @@
+@media (max-width: 1370px) {
+    .header__inner-picture {
+        display: none;
+    }
+    .header__inner {
+        justify-content: center;
+    }
+    .join__info {
+        margin-bottom: 30px;
+    }
+    .join__info-description {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .join__info-about,
+    .join__info-context {
+        max-width: 500px;
+    }
+    .join__info-about {
+        margin-top: 30px;
+    }
+    .join__story {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacts__team-info {
+        padding: 35px;
+    }
+    .contacts__form-box {
+        margin: 30px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .journal__content {
+        left: 12%;
+    }
+    .join__details {
+        padding: 20px;
+    }
+    .contacts__team-images {
+        display: none;
+    }
+    .contacts__inner {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1170px) {
+    .header__circle {
+        display: none;
+    }
+    .about__square--big {
+        top: 90px;
+    }
+    .about__square--small {
+         top: 0;
+    }
+}
+
+@media (max-width: 1030px) {
+    .journal__content {
+        left: 38%;
+    }
+    .footer__top-menu {
+        padding: 50px 20px;
+    }
+    .footer__top-list+.footer__top-list {
+        margin-left: 15px;
+    }
+    .journal__box {
+        top: 200px;
+    }
+    .journal__box-number {
+        font-size: 250px;
+        line-height: 300px;
+    }
+}
+@media (max-width: 940px) {
+    .contacts__inner {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .join__info-text {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contacts__team-images {
+        display: block;
+    }
+    .journal__content {
+        top: 457px;
+        left: 32%;
+    }
+    .about__subtitle {
+        font-size: 33px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .about__text {
+        font-size: 25px;
+        line-height: 29px;
+        margin-bottom: 30px;
+    }
+    .header {
+        padding-top: 0;
+    }
+    .header__menu-list {
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        z-index: 10;
+    }
+    .header__menu-content {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 34px;
+        padding-right: 34px;
+        & li {
+            display: block;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        & a {
+            width: 100%;
+            padding-bottom: 7px;
+            border-bottom: 1px solid #C1B2B1;
+            &:hover {
+                border-bottom-color: #000;
+            }
+        }
+    }
+    .header__menu-content li+li {
+        margin-left: 0;
+    }
+    .header__menu-mobile {
+        display: block;
+        margin-right: 65px;
+    }
+}
+
+@media (max-width: 870px) {
+    .journal__content {
+        top: 520px;
+        left: 24%;
+    }
+    .journal__box-number {
+        font-size: 194px;
+        line-height: 225px;
+    }
+    .journal__capture {
+        top: 550px;
+    }
+    .journal__title,
+    .contacts__title {
+        max-width: 285px;
+    }
+    .about__square--big {
+        right: 49px;
+        top: 30px;
+    }
+    .about__square--small {
+        top: -50px;
+    }
+    .footer__top-inner {
+        flex-direction: column;
+    }
+    .footer__top-list li {
+        margin-bottom: 10px;
+    }
+    .header__inner-title {
+        margin-bottom: 10px;
+    }
+    .header__inner-box {
+        max-width: 260px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacts__circle {
+        right: 0;
+        top: 50px;
+    }
+    .join__details-inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .join__details-item + .join__details-item {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .join__details-author {
+        margin-bottom: 0px;
+    }
+    .join__details-capture {
+        margin-bottom: 18px;
+    }
+    .join__details-item {
+        padding: 24px;
+        width: 430px;
+    }
+    .join__details {
+        margin-top: 20px;
+    }
+    .join__explore {
+         order: -1;
+         max-width: 500px;
+    }
+    .join__info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .join__release {
+         width: 500px;
+    }
+    .journal__box {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .journal__box-number {
+        font-size: 150px;
+        line-height: 180px;
+    }
+    .journal__capture {
+        top: 500px;
+    }
+    .about__square--big {
+        top: 1px;
+    }
+    .about__square--small {
+        top: -77px;
+    }
+    .header {
+        margin-bottom: 95px;
+    }
+    .header__menu {
+        margin-bottom: 100px;
+    }
+    .header__info {
+        margin: 100px auto 85px;
+    }
+    .header__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__inner-picture {
+        display: block;
+        & img {
+            height: 320px;
+        }
+    }
+    .header__inner-info {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .decor {
+        margin-bottom: 60px;
+    }
+    .journal__content-subtitle {
+        color: #fff;
+    }
+    .join__info-description {
+        margin-left: 0;
+    }
+    .join__info-context,
+    .join__info-title,
+    .join__info-subtitle {
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    .header__btn a {
+        padding: 15px 30px;
+    }
+    .header__title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .header__subtitle {
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width: 650px) {
+    .journal__content {
+        left: 14%;
+    }
+    .contacts__form-box {
+        margin: 0 0 20px;
+    }
+    .contacts__form {
+        width: 500px;
+    }
+    .contacts__team-images {
+        display: none;
+    }
+    .contacts__title {
+        margin-bottom: 30px;
+    }
+    .header, .about {
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 599px) {
+    .gallery__title,
+    .gallery__items {
+        margin-bottom: 15px;
+    }
+    .about__square--big,
+    .about__square--small,
+    .journal__triangle {
+      display: none;
+    }
+    .footer__top-list li {
+        margin-bottom: 10px;
+    }
+    .footer__top-menu {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 550px) {  
+    .contacts__inner {
+        margin-bottom: 20px;
+    }
+    .contacts__form {
+        width: 400px;
+    }
+    .join {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .join__release,
+    .join__explore {
+        width: 400px;
+        min-height: 300px;
+    }
+    .join__explore-subtitle {
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 3px;
+    }
+    .join__explore-title {
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: 3px;
+    }
+    .join__explore-btn {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 10px 25px
+    }
+    .join__explore-box {
+        margin: 65px auto 0;
+    }
+    .join__info-about {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    .journal__content-item {
+        max-width: 400px;
+    }
+    .journal__content {
+        top: 485px;
+    }
+    .header__inner-picture {
+        display: none;
+    }
+    .footer__top-menu {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__top-list+.footer__top-list {
+        margin-left: 0px;
+    }
+    .footer__top-list li:last-child {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 499px) {
+    .contacts__circle {
+        top: 0;
+    }
+    .join__details-item {
+        width: 320px;
+    }
+    .journal__content-text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .journal__content-item {
+        max-width: 330px;
+    }
+    .journal__box-text {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .journal__box {
+        top: 175px;
+    }
+    .journal__box-number {
+        font-size: 112px;
+        line-height: 140px;
+    }
+    .journal__content-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .journal__capture {
+        top: 440px;
+    }
+    .about__subtitle {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .about__title {
+        margin-bottom: 10px;
+    }
+    .about__text {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .header__inner-subtitle {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .header__info {
+        margin-top: 0px;
+    }
+    .header__btn {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .header__btn a {
+        padding: 10px 30px;
+    }
+    .header__title {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 13px;
+    }
+    .header__subtitle {
+        letter-spacing: 0px;
+    }
+    .footer__bottom-copy {
+        margin-bottom: 20px;
+    }
+    .footer__bottom-inner {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .join__details-title {
+        line-height: 30px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 467px) {
+    .header__inner-gallery {
+       justify-content: center;
+       margin-bottom: 15px;
+    }
+    .join__release,
+    .join__explore {
+        width: 300px;
+        min-height: 250px;
+    }
+    .join__release-content {
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+    .join__explore-subtitle {
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: 0px;
+   }
+   .join__explore-title {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 5px;
+    }
+    .contacts__form {
+        width: 300px;
+    }
+    .contacts__form input, 
+    .contacts__form textarea {
+        padding: 15px;
+    }
+    .contacts__team-info {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 399px) {
+    .gallery__item-content {
+        width: 274px;
+    }
+    .contacts__circle img {
+        width: 120px;
+        height: 120px;
+    }
+    .join__details {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .join__details-item {
+        padding: 15px;
+        width: 280px;
+    }
+    .join__info-title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .join__info-description {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .journal__content {
+        left: 8%;
+    }
+    .gallery__item-images img {
+        height: 270px;
+        width: 274px;
+    }
+    .gallery__item-content {
+        height: 270px;
+    }
+    .about__text {
+        font-size: 17px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    .about__subtitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .footer__bottom-copy {
+        margin-bottom: 10px;
+    }
+    .footer__bottom {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .footer__bottom-list li+li {
+        margin-left: 30px;
+    }
+    .header__menu {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header__menu-content {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+    .header__menu-list {
+        top: 72px;
+    }
+    .header__menu-mobile {
+        margin-right: 52px;
+    }
+}
+
+
+@media (min-width: 940px) {
+    .header__menu-list {
+        display: block !important;
+    }
+}

@@ -80,3 +80,18 @@ body {
         left: 0;
     }
 }
+
+@media (max-width: 870px) {
+    .title {
+        font-size: 80px;
+        line-height: 90px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 499px) {
+    .title {
+        font-size: 60px;
+        line-height: 65px;
+    }
+}
