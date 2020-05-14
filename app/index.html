@@ -13,18 +13,18 @@
     <div class="wrapper">
         <div class="content">
             <header class="header" style="background-image: url(images/header/image_bgd.jpg);">
-                <div class="header__menu">
+                <div class="header__menu" id="myHeader">
                     <div class="header__logo">
                        <a href="#"> <img src="images/header/logo.png" alt="logo"></a>
                     </div>
                     <div class="header__nav">
                         <nav class="header__menu-list">
                             <ul class="header__menu-content"> 
-                                <li><a href="#">home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">gallery</a></li>
-                                <li><a href="#">journal</a></li>
-                                <li><a href="#">contact</a></li>
+                                <li><a href="#home">home</a></li>
+                                <li><a href="#about">about</a></li>
+                                <li><a href="#gallery">gallery</a></li>
+                                <li><a href="#journal">journal</a></li>
+                                <li><a href="#contact">contact</a></li>
                             </ul>
                         </nav>
                         <div class="header__menu-mobile">
@@ -39,13 +39,13 @@
                    
                 </div>
                 <div class="header__info">
-                    <div class="header__subtitle wow zoomIn" data-wow-duration="2s">
+                    <div class="header__subtitle">
                         let your life be an 
                     </div>
-                    <div class="header__title wow zoomIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                    <div class="header__title">
                         adventure
                     </div>
-                    <div class="header__btn wow zoomIn" data-wow-duration="2s" data-wow-delay="0.9s">
+                    <div class="header__btn">
                         <a href="#">Get inspired</a>
                     </div>
                 </div>
@@ -53,9 +53,9 @@
                     <div class="header__inner">
                         <div class="header__inner-info">
                             <div class="header__inner-box">
-                                <div class="header__inner-title title wow fadeInLeft" data-wow-duration="2s">impres-sive</div>
-                                <div class="header__inner-subtitle wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.5s">Shots of your week</div>
-                                <div class="header__inner-author wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.9s">
+                                <div class="header__inner-title title wow zoomIn" data-wow-duration="2s">impres-sive</div>
+                                <div class="header__inner-subtitle wow zoomIn" data-wow-duration="2s" data-wow-delay="0.5s">Shots of your week</div>
+                                <div class="header__inner-author wow zoomIn" data-wow-duration="2s" data-wow-delay="0.9s">
                                     by Jonathan Bean
                                 </div>
                             </div>
@@ -65,10 +65,10 @@
                         </div>
                         <div class="header__inner-photo">
                             <div class="header__inner-gallery">
-                                <a class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.3s" href="#"><img src="images/header/photo1.jpg" alt="photo"></a>
-                                <a class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.6s" href="#"><img src="images/header/photo2.jpg" alt="photo"></a>
-                                <a class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s" href="#"><img src="images/header/photo3.jpg" alt="photo"></a>
-                                <a class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s" href="#"><img src="images/header/photo4.jpg" alt="photo"></a>
+                                <a  href="#"><img src="images/header/photo1.jpg" alt="photo"></a>
+                                <a  href="#"><img src="images/header/photo2.jpg" alt="photo"></a>
+                                <a  href="#"><img src="images/header/photo3.jpg" alt="photo"></a>
+                                <a  href="#"><img src="images/header/photo4.jpg" alt="photo"></a>
                             </div>
                             <div class="header__inner-btn default-btn">
                                 <a href="#">See all
@@ -87,17 +87,17 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="header__circle">
+                        <div class="header__circle wow zoomIn" data-wow-duration="2s" data-wow-delay="0.9s">
                             <img src="images/header/img_floating_circle.png" alt="image">
                         </div>
                     </div>
                 </div>
             </header>
 
-           <section class="about">
+           <section class="about"><a id="about"></a>
                 <div class="section-wrapper">
                     <div class="about__box">
-                        <div class="about__title title wow fadeInLeft" data-wow-duration="2s" >about</div>
+                        <div class="about__title title wow zoomIn" data-wow-duration="2s" >about</div>
                         <div class="about__subtitle">
                             Home to everyone's best photos
                         </div>
@@ -132,22 +132,24 @@
                             </a>
                         </div>
                     </div>
-                    <div class="about__square--small wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
+                    <div class="about__square about__square--small wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">
                         <img src="images/content/small_square.png" alt="image">
                     </div>
-                    <div class="about__square--big wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.3s">
+                    <div class="about__square about__square--big wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.3s">
                         <img src="images/content/floating_square.png" alt="image">
                     </div>
                 </div>
             </section>
 
-            <section class="gallery">
+            <section class="gallery"><a id="gallery"></a>
                 <div class="section-wrapper">
-                    <div class="gallery__title title wow fadeInLeft" data-wow-duration="2s">Gallery</div>
+                    <div class="gallery__title title wow zoomIn" data-wow-duration="2s">Gallery</div>
                     <div class="gallery__items">
                         <div class="gallery__item wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s" >
                             <div class="gallery__item-images">
-                                <a href="images/content/gallery_image_1.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_1.jpg" alt="photo"/></a>  
+                                <a href="images/content/gallery_image_1.jpg" data-fancybox data-width="1000" data-height="800"> 
+                                    <img src="images/content/gallery_image_1.jpg" alt="photo">
+                                </a>  
                             </div>
                             <div class="gallery__item-content">
                                 <div class="gallery__item-name">Foam</div>
@@ -159,7 +161,9 @@
                         </div>
                         <div class="gallery__item  wow fadeIn" data-wow-duration="2s" data-wow-delay=".8s">
                             <div class="gallery__item-images">
-                                <a href="images/content/gallery_image_2.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_2.jpg"  alt="photo"/></a>  
+                                <a href="images/content/gallery_image_2.jpg" data-fancybox data-width="1000" data-height="800">
+                                     <img src="images/content/gallery_image_2.jpg"  alt="photo">
+                                </a>  
                             </div>
                             <div class="gallery__item-content">
                                 <div class="gallery__item-name">Freshwater West </div>
@@ -171,7 +175,9 @@
                         </div>
                         <div class="gallery__item wow fadeIn" data-wow-duration="2s" data-wow-delay="1.2s">
                             <div class="gallery__item-images">
-                                <a href="images/content/gallery_image_3.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_3.jpg" alt="photo"/></a>  
+                                <a href="images/content/gallery_image_3.jpg" data-fancybox data-width="1000" data-height="800"> 
+                                    <img src="images/content/gallery_image_3.jpg" alt="photo">
+                                </a>  
                             </div>
                             <div class="gallery__item-content">
                                 <div class="gallery__item-name">Niagara Waterfalls</div>
@@ -183,7 +189,9 @@
                         </div>
                         <div class="gallery__item wow fadeIn" data-wow-duration="2s" data-wow-delay="1.6s">
                             <div class="gallery__item-images">
-                                <a href="images/content/gallery_image_4.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_4.jpg"  alt="photo"/></a>  
+                                <a href="images/content/gallery_image_4.jpg" data-fancybox data-width="1000" data-height="800"> 
+                                    <img src="images/content/gallery_image_4.jpg"  alt="photo">
+                                </a>  
                             </div>
                             <div class="gallery__item-content">
                                 <div class="gallery__item-name">Mocean</div>
@@ -195,7 +203,9 @@
                         </div>
                         <div class="gallery__item wow fadeIn" data-wow-duration="2s" data-wow-delay=".4s">
                             <div class="gallery__item-images">
-                                <a href="images/content/gallery_image_5.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_5.jpg" alt="photo"/></a>  
+                                <a href="images/content/gallery_image_5.jpg" data-fancybox data-width="1000" data-height="800">
+                                     <img src="images/content/gallery_image_5.jpg" alt="photo">
+                                </a>  
                             </div>
                             <div class="gallery__item-content">
                                 <div class="gallery__item-name">Clear Lake</div>
@@ -207,7 +217,9 @@
                         </div>
                         <div class="gallery__item wow fadeIn" data-wow-duration="2s" data-wow-delay=".8s">
                             <div class="gallery__item-images">
-                                <a href="images/content/gallery_image_6.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_6.jpg"  alt="photo"/></a>  
+                                <a href="images/content/gallery_image_6.jpg" data-fancybox data-width="1000" data-height="800">
+                                     <img src="images/content/gallery_image_6.jpg"  alt="photo">
+                                </a>  
                             </div>
                             <div class="gallery__item-content">
                                 <div class="gallery__item-name">Cristal WaterFalls</div>
@@ -219,7 +231,9 @@
                         </div>
                         <div class="gallery__item wow fadeIn" data-wow-duration="2s" data-wow-delay="1.2s">
                             <div class="gallery__item-images">
-                                <a href="images/content/gallery_image_7.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_7.jpg"  alt="photo"/></a>  
+                                <a href="images/content/gallery_image_7.jpg" data-fancybox data-width="1000" data-height="800"> 
+                                    <img src="images/content/gallery_image_7.jpg"  alt="photo">
+                                </a>  
                             </div>
                             <div class="gallery__item-content">
                                 <div class="gallery__item-name">Pathific Ocean</div>
@@ -231,7 +245,9 @@
                         </div>
                         <div class="gallery__item wow fadeIn" data-wow-duration="2s" data-wow-delay="1.6s">
                             <div class="gallery__item-images">
-                                <a href="images/content/gallery_image_8.jpg" data-fancybox data-width="1000" data-height="800"> <img src="images/content/gallery_image_8.jpg" alt="photo"/></a>  
+                                <a href="images/content/gallery_image_8.jpg" data-fancybox data-width="1000" data-height="800"> 
+                                    <img src="images/content/gallery_image_8.jpg" alt="photo">
+                                </a>  
                             </div>
                             <div class="gallery__item-content">
                                 <div class="gallery__item-name">Dead Sea</div>
@@ -269,21 +285,21 @@
                 </div>
             </section>
  
-            <section class="journal" style="background-image: url(images/content/image_bgd.jpg);">
+            <section class="journal" style="background-image: url(images/content/image_bgd.jpg);"><a id="journal"></a>
                 <div class="section-wrapper">
-                    <div class="journal__title title wow fadeInLeft" data-wow-duration="2s">jour-nal</div>
-                    <div class="journal__triangle wow slideInRight" data-wow-duration="2s" data-wow-delay=".3s">
+                    <div class="journal__title title wow zoomIn" data-wow-duration="2s">jour-nal</div>
+                    <div class="journal__triangle wow zoomIn" data-wow-duration="2s" data-wow-delay=".3s">
                         <img src="images/content/floating_triangle.png" alt="image">
                     </div>
                     <div class="journal__box">
-                        <p class="journal__box-number wow zoomIn" data-wow-duration="2s" data-wow-delay=".5s">714</p>
-                        <a href="#" class="journal__box-text wow zoomIn" data-wow-duration="2s" data-wow-delay="1.9s">shared <span>stories</span></a>
+                        <p class="journal__box-number">714</p>
+                        <a href="#" class="journal__box-text">shared <span>stories</span></a>
                     </div>
                     <div class="journal__capture">
-                        <p class="journal__content-title wow zoomIn" data-wow-duration="2s" data-wow-delay="1.0s">
+                        <p class="journal__content-title">
                             WEEKLY TOPICS
                         </p>
-                        <p class="journal__content-subtitle wow zoomIn" data-wow-duration="2s" data-wow-delay="1.9s">
+                        <p class="journal__content-subtitle">
                             Written by people like you
                         </p>
                     </div>
@@ -375,7 +391,7 @@
             <section class="join">
                 <div class="section-wrapper">
                     <div class="join__info">
-                        <div class="join__release wow slideInRight" data-wow-duration="2s" style="background-image: url(images/content/img_island.jpg);">
+                        <div class="join__release" style="background-image: url(images/content/img_island.jpg);">
                             <div class="join__release-content">
                                 <div class="join__release-btn">
                                     <img src="images/icons/player.png" alt="play button">
@@ -386,7 +402,7 @@
                             </div>
                         </div>
                         <div class="join__info-description">
-                            <div class="join__info-about wow slideInRight" data-wow-duration="2s" data-wow-delay=".3s">
+                            <div class="join__info-about wow zoomIn" data-wow-duration="2s" data-wow-delay=".3s">
                                 <p class="join__info-title">DAY BY DAY </p>
                                 <p class="join__info-subtitle">Adventure</p>
                                 <p class="join__info-text">
@@ -395,7 +411,7 @@
                                 </p>
                                 <p class="join__info-author">Dana Galicia </p>
                             </div>
-                            <div class="join__info-context wow slideInRight" data-wow-duration="2s" data-wow-delay=".7s">
+                            <div class="join__info-context wow zoomIn" data-wow-duration="2s" data-wow-delay=".7s">
                                 <p class="join__info-title">
                                     LET OTHERS SEE THE BEAUTY OF THE WORLD CAPTURED BY YOUR EYES.
                                 </p>
@@ -408,7 +424,7 @@
                         <div class="join__details">
                             <div class="join__details-title">FEATURED STORIES</div>
                             <div class="join__details-inner">
-                                <div class="join__details-item wow slideInLeft" data-wow-duration="2s" data-wow-delay=".9s">
+                                <div class="join__details-item wow zoomIn" data-wow-duration="2s" data-wow-delay=".9s">
                                     <a class="join__details-images" href="#" ><img src="images/icons/picture.jpg" alt="photo"></a>
                                     <p class="join__details-capture">Photography</p>
                                     <p class="join__details-name">A night to remember</p>
@@ -428,7 +444,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                                <div class="join__details-item wow slideInLeft" data-wow-duration="2s" data-wow-delay=".5s">
+                                <div class="join__details-item wow zoomIn" data-wow-duration="2s" data-wow-delay=".5s">
                                     <a class="join__details-images" href="#" ><img src="images/icons/video.jpg" alt="photo"></a>
                                     <p class="join__details-capture">Video</p>
                                     <p class="join__details-name">Little shots of happiness</p>
@@ -448,7 +464,7 @@
                                         </svg>
                                     </a>
                                 </div>
-                                <div class="join__details-item wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.1s">
+                                <div class="join__details-item wow zoomIn" data-wow-duration="2s" data-wow-delay="0.1s">
                                     <a class="join__details-images" href="#" ><img src="images/icons/image.jpg" alt="photo"></a>
                                     <p class="join__details-capture">Exposition</p>
                                     <p class="join__details-name">Nocturna</p>
@@ -470,10 +486,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="join__explore wow slideInLeft" data-wow-duration="2s" data-wow-delay="1.2s" style="background-image: url(images/content/lake.jpg);">
+                        <div class="join__explore" style="background-image: url(images/content/lake.jpg);">
                             <div class="join__explore-box">
-                                <p class="join__explore-subtitle"> the story of each  </p>
-                                <p class="join__explore-title"> place  </p>
+                                <p class="join__explore-subtitle"> the story of each </p>
+                                <p class="join__explore-title"> place </p>
                                 <a href="#" class="join__explore-btn">explore</a>
                             </div>
                         </div>
@@ -481,15 +497,15 @@
                 </div>
             </section>
 
-            <section class="contacts">
+            <section class="contacts"><a id="contact"></a>
                 <div class="section-wrapper">
                     <div class="contacts__title title">con-tact</div>
-                    <div class="contacts__circle wow slideInRight" data-wow-duration="2s" data-wow-delay="0.1s">
+                    <div class="contacts__circle wow zoomIn" data-wow-duration="2s" data-wow-delay="0.1s">
                         <img src="images/header/img_floating_circle.png" alt="image">
                     </div>
                     <div class="contacts__inner">
                         <div class="contacts__team">
-                            <div class="contacts__team-info  wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.7s">
+                            <div class="contacts__team-info  wow zoomIn" data-wow-duration="2s" data-wow-delay="0.7s">
                                 <p class="contacts__team-title">GET IN TOUCH</p>
                                 <p class="contacts__team-subtitle">We’re here for you</p>
                                 <p class="contacts__team-number">3.146</p>
@@ -497,13 +513,13 @@
                                 <p class="contacts__team-details contacts__team-details--photo"><span>1.622</span> Photographers</p>
                                 <p class="contacts__team-details contacts__team-details--design"><span>601</span> Motion Designers</p>
                             </div>
-                            <div class="contacts__team-images wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <div class="contacts__team-images wow zoomIn" data-wow-duration="2s" data-wow-delay="0.3s">
                                 <img src="images/content/team.jpg" alt="photo">
                             </div>
                         </div>
                         <div class="contacts__form-box">
                             <form class="contacts__form">
-                                <input class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.3s" type="text" placeholder="Your name is?" required>
+                                <input class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.3s" type="text" placeholder="Your id is?" required>
                                 <input class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.6s"type="email" placeholder="Email" required>
                                 <textarea class="wow zoomIn" data-wow-duration="2s" data-wow-delay="0.9s" placeholder="Message" required></textarea>
                                 <button class="wow zoomIn" data-wow-duration="2s" data-wow-delay="1s"type="submit">Say hello</button>
@@ -514,11 +530,11 @@
             </section>
             
         </div>
-        <footer class="footer"><a name="footer"></a>
+        <footer class="footer"><a id="footer"></a>
             <div class="footer__top">
                 <div class="section-wrapper">
                     <div class="footer__top-inner">
-                        <div class="footer__top-images wow lightSpeedIn" data-wow-duration="2s" data-wow-delay="0.5s">
+                        <div class="footer__top-images wow zoomIn" data-wow-duration="2s" data-wow-delay="0.5s">
                             <img src="images/content/footer_logo.png" alt="image">
                         </div>
                         <div class="footer__top-menu">

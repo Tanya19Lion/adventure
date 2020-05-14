@@ -31,7 +31,8 @@
             text-transform: uppercase;
             color: #C1B2B1;
             transition: all .5s;
-            &:hover {
+            &:hover,
+            &:focus {
                 color: #000;
             }
         }
@@ -76,7 +77,8 @@
             border: 2px solid rgba(255, 255, 255, 0.8);
             border-radius: 100px;
             transition: all .5s;
-            &:hover {
+            &:hover,
+            &:focus {
                 background-color: lightgrey;
             }
         }
@@ -163,7 +165,12 @@
         margin-bottom: 0;
     }
 }
-
+// .sticky {
+//     position: fixed;
+//     top: 0;
+//     z-index: 29;
+//     width: 100%;
+// }
 //end header
 
 
@@ -231,6 +238,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        display: inline-block;
     }
     &-images a {
         font-size: 0;
@@ -344,7 +352,8 @@
                 font-size: 25px;
                 line-height: 30px;
             }
-            &:hover {
+            &:hover,
+            &:focus {
                 color: #000;
             }
         }
@@ -601,7 +610,8 @@
             text-transform: uppercase;
             margin-top: 25px;
             transition: all .5s;
-            &:hover {
+            &:hover,
+            &:focus {
                 background-color: #518DA3;
                 color: #fff;
             }
@@ -649,7 +659,8 @@
             background-color: transparent;
             padding: 16px 36px;
             transition: all .5s;
-            &:hover {
+            &:hover,
+            &:focus {
                 background-color: lightgrey;
                 color: #000;
             }
@@ -710,7 +721,8 @@
         &-btn {
             align-self: flex-end;
             transition: all .5s;
-            &:hover svg g path {
+            &:hover svg g path,
+            &:focus svg g path {
                 stroke: #000 !important;
             }
         }
@@ -731,6 +743,7 @@
     }
     &__inner {
         display: flex;
+        justify-content: space-between;
     }
     &__team {
         display: flex;
@@ -793,11 +806,14 @@
             font-weight: 300;
             font-size: 20px;
             line-height: 23px;
-            color: #000;
+            color: lightslategray;
             outline: none;
             margin-bottom: 25px;
             &::placeholder {
-                color: #CCCCCC;
+                color: lightslategray;
+            }
+            &:focus {
+                box-shadow: 0px 0px 15px 3px lightsteelblue;
             }
         }
         textarea {
@@ -819,7 +835,8 @@
             line-height: 23px;
             transition: all .5s;
             cursor: pointer;
-            &:hover {
+            &:hover,
+            &:focus {
                 background-color: #BFD4E8;
             }
         }
@@ -871,7 +888,8 @@
         line-height: 25px;
         color: #98B8F6;
         transition: all .5s;
-        &:hover {
+        &:hover,
+        &:focus {
             color: #000;
         }
     }

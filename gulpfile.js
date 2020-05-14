@@ -38,7 +38,7 @@ gulp.task('style', function(){
         'node_modules/rateyo/src/jquery.rateyo.css',
         'node_modules/animate.css/animate.css',
         'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css'
-    ])    
+    ])   
     .pipe(concat('libs.min.css'))
     .pipe(cssmin())
     .pipe(gulp.dest('app/css'))
@@ -63,7 +63,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('watch', function(){
-    gulp.watch('app/scss/style.scss', gulp.parallel('sass'))
+    gulp.watch('app/scss/**/*.scss', gulp.parallel('sass'))
     gulp.watch('app/*.html', gulp.parallel('html'))
     gulp.watch('app/js/*.js', gulp.parallel('js'))
 });
