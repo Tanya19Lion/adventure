@@ -97,9 +97,11 @@ gulp.task("style", function () {
 	return gulp
 		.src([
 			//указываем, где брать исходники
-			"node_modules/normalize.css/normalize.css",
 			'node_modules/slick-carousel/slick/slick.css',
-	    	'node_modules/animate.css/animate.css'
+			'node_modules/magnific-popup/dist/magnific-popup.css',
+			'node_modules/normalize.css/normalize.css',
+			'node_modules/rateyo/src/jquery.rateyo.css',
+			'node_modules/animate.css/animate.css'			
 		])
 		.pipe(concat("libs.min.css")) //склеиваем их в один файл с указанным именем
 		.pipe(cssmin()) //минифицируем полученный файл
@@ -112,10 +114,13 @@ gulp.task("script", function () {
 	return gulp
 		.src([
 			//тут подключаем разные js в общую библиотеку. Отключите то, что вам не нужно.
-			"node_modules/jquery/dist/jquery.js",
+			// "node_modules/jquery/dist/jquery.js",
 			'node_modules/slick-carousel/slick/slick.js',
 	    	'node_modules/wow.js/dist/wow.js',
-			'node_modules/jquery-parallax.js/parallax.js'
+			'node_modules/jquery-parallax.js/parallax.js',
+		    'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
+			'node_modules/rateyo/src/jquery.rateyo.js',
+			'node_modules/mixitup/dist/mixitup.js',
 		])
 		.pipe(size())
 		.pipe(babel())

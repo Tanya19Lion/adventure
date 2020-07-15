@@ -47,7 +47,6 @@ commonSection.addEventListener('click', (event) => {
     event.preventDefault();
 
     target = event.target;
-    console.log(target);
 
     if (target && target.classList.contains('gallery__preview')) {
         imgPopup.style.display = 'flex';
